@@ -1,97 +1,153 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"> </script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                'montserrat': ['Montserrat'],
-                    colors: {
-                        clifford: '#da373d' ,
-                    }
-                }
-            }
-        }
-     }
-
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              montserrat: ["Montserrat"],
+              colors: {
+                clifford: "#da373d",
+                figmacoffee: "DDC7BB",
+                figmalbrown: "FEF7F2",
+                figmawhite: "FFFFFF",
+              },
+            },
+          },
+        },
+      };
     </script>
     <style type="text/tailwindcss">
-        @layer utilities { 
- .content-auto {
-    content-visibility: auto;
- }
-}
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- START / NAVBAR(TIBOR)-->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#agents">Agents</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="fixed rounded-xl shadow-lg flex w-20 md:w-24 lg:w-36">
+      <div class="">
+        <img class="py-5 flex-row" src="img/dwello.png" alt="dwello logo" />
+      </div>
+      <nav class="flex-row justify-between drop-shadow-lg">
+        <a class="" href="index.html">Home</a>
+        <a href="#service">Service</a>
+        <a href="#agents">Agents</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="flex-row">
+        <img src="img/search.png" alt="search icon" /><a href="#search"></a>
+        <img src="img/user.svg" alt="user icon" /><a href="#user"></a>
+        <button class="flex-row py- px-8 rounded-xl text-[#]">
+          <a href="#signup">Sign up</a>
+        </button>
+      </div>
     </header>
-    <!-- END / NAVBAR(TIBOR)-->
+    <main>
+      <!-- END / NAVBAR(TIBOR)-->
 
-
-    <!-- START / FIND YOUR DREAM HOME(SEBASTIAN)-->
-    <section>
+      <!-- START / FIND YOUR DREAM HOME(SEBASTIAN)-->
+      <section>
         <h1 class="font-montserrat">Find Your Dream Home</h1>
-        <p>Explore our curated selection of exquisite properties meticulously tailored to your unique dream home vision</p>
+        <p>
+          Explore our curated selection of exquisite properties meticulously
+          tailored to your unique dream home vision
+        </p>
         <button>Sign up</button>
-        <img src="Images/hero image 1.svg" alt="Picture of a House">
-    </section>
-    <!-- END / FIND YOUR DREAM HOME(SEBASTIAN)-->
+        <img src="Images/hero image 1.svg" alt="Picture of a House" />
+      </section>
+      <!-- END / FIND YOUR DREAM HOME(SEBASTIAN)-->
 
+      <!-- START / SEARCH BAR(SEBASTIAN)-->
+      <section></section>
+      <!-- END / SEARCH BAR(SEBASTIAN)-->
 
-    <!-- START / SEARCH BAR(SEBASTIAN)-->
-    <section></section>
-    <!-- END / SEARCH BAR(SEBASTIAN)-->
+      <!-- START / WE HELP YOU FIND IT BAR(SEBASTIAN)-->
+      <section></section>
+      <!-- END / WE HELP YOU FIND IT BAR(SEBASTIAN)-->
 
+      <!-- START /WHY CHOOSE US(TIBOR)-->
+      <section>
+        <h2>Why Choose Us</h2>
+        <p>Elevating Your Home Buying Experience with Expertise, Integrity, and Unmatched Personalized Service</p>
 
-    <!-- START / WE HELP YOU FIND IT BAR(SEBASTIAN)-->
-    <section></section>
-    <!-- END / WE HELP YOU FIND IT BAR(SEBASTIAN)-->
+      <div>
+      <img src="img/map pin.png" alt="map pin pictogram">
+      <p>Expert Guidance</p>
+      <p>Benefit from our team'seasoned expertise for a smooth buying experience</p>
+      </div>
+      <img src="img/service.png" alt="service pictogram">
+      <p>Personalized Service</p>
+      <p>Our services adapt to your unique needs, making your journey stress-free</p>
+      </div>
+      <div>
+      <img src="img/document.png" alt="document pictogram">
+      <p>Transparent Process</p>
+      <p>Stay informed with our clear and honest approach to buying your home</p>
+      </div>
+      <img src="img/handshake.png" alt="document pictogram">
+      <p>Exceptional Support</p>
+      <p>Providing peace of mind with our responsive and attentive customer service</p>
+     </div>
+      </section>
+      <!-- END  /WHY CHOOSE US(TIBOR)-->
 
+      <!-- START / OUR POPULAR RESIDENCES (BERKAN)-->
+      <section></section>
+      <!-- END / OUR POPULAR RESIDENCES (BERKAN)-->
 
-    <!-- START /WHY CHOOSE US(TIBOR)-->
-    <section></section>
-    <!-- END  /WHY CHOOSE US(TIBOR)-->
+      <!-- START / WHAT PEOPLE SAY (BERKAN)-->
+      <section></section>
+      <!-- START / WHAT PEOPLE SAY (BERKAN)-->
 
-
-    <!-- START / OUR POPULAR RESIDENCES (BERKAN)-->
-    <section></section>
-    <!-- END / OUR POPULAR RESIDENCES (BERKAN)-->
-
-
-    <!-- START / WHAT PEOPLE SAY (BERKAN)-->
-    <section></section>
-    <!-- START / WHAT PEOPLE SAY (BERKAN)-->
-
-
-    <!-- START / DO YOU HAVE QUESTIONS (BERKAN)-->
-    <section></section>
-    <!-- END / DO YOU HAVE QUESTIONS (BERKAN)-->
-
-
+      <!-- START / DO YOU HAVE QUESTIONS (BERKAN)-->
+      <section></section>
+      <!-- END / DO YOU HAVE QUESTIONS (BERKAN)-->
+    </main>
     <!-- START / FOOTER (TIBOR)-->
-    <section></section>
+    <footer>
+      <div class="">
+        <img src="img/dwello.png" alt="dwello logo" />
+        <small
+          >Bringing you closer to your dream home, one click at a time</small
+        >
+      </div>
+      <div class="grid-rows-4 grid-flow-col gap-4">
+        <h2>About</h2>
+        <a href="#story">Our Story</a>
+        <a href="#careers">Careers</a>
+        <a href="#story">Our Team</a>
+        <a href="#story">Resources</a>
+        <h2>Support</h2>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#story">Help Center</a>
+        <a href="#story">Terms of Service</a>
+        <h2>Find Us</h2>
+        <a href="#events">Events</a>
+        <a href="#contact">Locations</a>
+        <a href="#story">Newsletter</a>
+        <h2>Our Social</h2>
+        <img src="img/instagram." alt="instagram logo" />
+        <a href="#instagram">Instagram</a>
+        <img src="img/facebook." alt="facebook logo" />
+        <a href="#facebook">Facebook</a>
+        <img src="img/twitter." alt="twitter logo" />
+        <a href="#twitter">Twitter (x)</a>
+      </div>
+    </footer>
     <!-- END / FOOTER (TIBOR)-->
-
-  
-</body>
-
+  </body>
 </html>

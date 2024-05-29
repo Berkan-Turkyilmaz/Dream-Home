@@ -1,78 +1,100 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale">
-    <script src="https://cdn.tailwindcss.com"> </script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        clifford:   ,
-                    }
-                }
-            }
-        }
-
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              montserrat: ["Montserrat"],
+              colors: {
+                clifford: "#da373d",
+              },
+            },
+          },
+        },
+      };
     </script>
     <style type="text/tailwindcss">
-        @layer utilities { 
- .content-auto {
-    content-visibility: auto;
- }
-}
-    </style>
-</head>
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </
+    
+  </head>
 
-<body>
+  <body>
     <!-- START / NAVBAR(TIBOR)-->
-    <header>
-     <nav class ="flex justify-evenly bg-orange-700 h-6 w-20 md:w-24 lg:w-36">
-       
-            <img class=""
-            src="img/dwello.png"
-            alt="dwello logo"
-            >
-        
-        <a class="flex 1 1 auto" href="index.html">Home</a>
-            <a href="#service">Service</a>
-            <a href="#agents">Agents</a>
-            <a href="#contact">Contact</a>
-            <img src="img/search.png" alt="search icon"><a href="#search"></a><img>
-            <img src="img/user.svg" alt="user icon"><a href="#user"></a></img>
-            <button class="bg-emerald-400 py-2 px-4 text-[#]"><a href="#signup">Sign up</a></button>
-        </nav>
+    <header class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 h-6 w-20 md:w-24 lg:w-36">
+      <div class="">
+        <img class="justify-evenly" src="img/dwello.png" alt="dwello logo" />
+      </div>
+      <nav class="flex-initial justify-evenly">
+        <a class="" href="index.html">Home</a>
+        <a href="#service">Service</a>
+        <a href="#agents">Agents</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="justify-evenly">
+        <img src="img/search.png" alt="search icon" /><a href="#search"></a>
+        <img src="img/user.svg" alt="user icon" /><a href="#user"></a>
+        <button class="bg-emerald-400 py-2 px-4 text-[#]">
+          <a href="#signup">Sign up</a>
+        </button>
+      </div>
     </header>
-    <!-- END / NAVBAR(TIBOR)-->
-    <!-- START / FIND YOUR DREAM HOME(SEBASTIAN)-->
-    <section></section>
-    <!-- END / FIND YOUR DREAM HOME(SEBASTIAN)-->
-    <!-- START / SEARCH BAR(SEBASTIAN)-->
-    <section></section>
-    <!-- END / SEARCH BAR(SEBASTIAN)-->
-    <!-- START / WE HELP YOU FIND IT BAR(SEBASTIAN)-->
-    <section></section>
-    <!-- END / WE HELP YOU FIND IT BAR(SEBASTIAN)-->
-    <!-- START /WHY CHOOSE US(TIBOR)-->
-    <section></section>
-    <!-- END  /WHY CHOOSE US(TIBOR)-->
-    <!-- START / OUR POPULAR RESIDENCES (BERKAN)-->
-    <section></section>
-    <!-- END / OUR POPULAR RESIDENCES (BERKAN)-->
-    <!-- START / WHAT PEOPLE SAY (BERKAN)-->
-    <section></section>
-    <!-- START / WHAT PEOPLE SAY (BERKAN)-->
-    <!-- START / DO YOU HAVE QUESTIONS (BERKAN)-->
-    <section></section>
-    <!-- END / DO YOU HAVE QUESTIONS (BERKAN)-->
-    <!-- START / FOOTER (TIBOR)-->
-    <section></section>
+    <main>
+      <!-- END / NAVBAR(TIBOR)-->
+
+      <!-- START / FIND YOUR DREAM HOME(SEBASTIAN)-->
+      <section>
+        <h1 class="font-montserrat">Find Your Dream Home</h1>
+        <p>
+          Explore our curated selection of exquisite properties meticulously
+          tailored to your unique dream home vision
+        </p>
+        <button>Sign up</button>
+        <img src="Images/hero image 1.svg" alt="Picture of a House" />
+      </section>
+      <!-- END / FIND YOUR DREAM HOME(SEBASTIAN)-->
+
+      <!-- START / SEARCH BAR(SEBASTIAN)-->
+      <section></section>
+      <!-- END / SEARCH BAR(SEBASTIAN)-->
+
+      <!-- START / WE HELP YOU FIND IT BAR(SEBASTIAN)-->
+      <section></section>
+      <!-- END / WE HELP YOU FIND IT BAR(SEBASTIAN)-->
+
+      <!-- START /WHY CHOOSE US(TIBOR)-->
+      <section></section>
+      <!-- END  /WHY CHOOSE US(TIBOR)-->
+
+      <!-- START / OUR POPULAR RESIDENCES (BERKAN)-->
+      <section></section>
+      <!-- END / OUR POPULAR RESIDENCES (BERKAN)-->
+
+      <!-- START / WHAT PEOPLE SAY (BERKAN)-->
+      <section></section>
+      <!-- START / WHAT PEOPLE SAY (BERKAN)-->
+
+      <!-- START / DO YOU HAVE QUESTIONS (BERKAN)-->
+      <section></section>
+      <!-- END / DO YOU HAVE QUESTIONS (BERKAN)-->
+
+      <!-- START / FOOTER (TIBOR)-->
+    </main>
+    <footer></footer>
     <!-- END / FOOTER (TIBOR)-->
-
-  
-</body>
-
+  </body>
 </html>

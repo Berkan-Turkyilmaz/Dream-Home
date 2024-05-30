@@ -1,0 +1,190 @@
+commit a9b2b68f6e633393aea0cface003311a91c5a66b
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Thu May 30 00:56:15 2024 +0200
+
+    flex header and navbar added
+
+commit e56571811e5d067becf329cfe50d8bffd8850a88
+Merge: 439edbe 8516e07
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:58:06 2024 +0200
+
+    Merge branch 'main' into ft/header-nav
+
+commit 8516e077cecc604d7619bb8cba59e8df09efb99b
+Merge: d6c778a 0a9539b
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:57:16 2024 +0200
+
+    Merge pull request #6 from Berkan-Turkyilmaz/ft/whychooseus
+    
+    ft/whychooseus
+
+commit 0a9539bc1a4b193d6fb3efe90921476021296055
+Merge: 8caea74 d6c778a
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:57:02 2024 +0200
+
+    Merge branch 'main' into ft/whychooseus
+
+commit 439edbe34265fc4b04975798f63ca8eb2d53fcc0
+Merge: ac99852 b95510f
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:53:01 2024 +0200
+
+    Merge branch 'ft/footer' into ft/header-nav
+
+commit d6c778a476666f7859e16c8de4dfa25bf89fe5c5
+Merge: ece48f3 b95510f
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:49:16 2024 +0200
+
+    Merge pull request #8 from Berkan-Turkyilmaz/ft/footer
+    
+     footer html
+
+commit ece48f363cf55a8d14fd10247ccd0c72f0a8fc08
+Merge: 8bacf3b 5cb6356
+Author: SebSchoeneberger <sebastian.schoeneberger@gmail.com>
+Date:   Wed May 29 17:48:59 2024 +0200
+
+    Merge pull request #7 from Berkan-Turkyilmaz/feature/first-section
+    
+    Feature/first section
+
+commit 8caea74abd5577320e6efdd6368bf19171f939ff
+Merge: 332a537 8bacf3b
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:48:40 2024 +0200
+
+    Merge branch 'main' into ft/whychooseus
+
+commit 5cb6356ffbafd693adcd0c7e6d1cdea2788edc07
+Author: Sebastian Schoeneberger <sebastian.schoeneberger@gmail.com>
+Date:   Wed May 29 17:48:00 2024 +0200
+
+    First Draft Find your dream home section
+
+commit 8bacf3b0d1dd96eda04ff9f1744ef716900ed2c6
+Merge: c51d9af ac99852
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:43:52 2024 +0200
+
+    Merge pull request #5 from Berkan-Turkyilmaz/ft/header-nav
+    
+    Ft/header nav
+
+commit 332a5374cf88b67b45f33bb575d1862a7b3d7c2f
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:41:16 2024 +0200
+
+    ft/whychooseus
+
+commit b95510f954164fb744bab4c303c9d8c507f453cc
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 17:19:30 2024 +0200
+
+     footer html
+
+commit ac998521cf35b18da54b7db815315503c6231732
+Merge: ef9da58 c51d9af
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 16:17:16 2024 +0200
+
+     4th
+
+commit ef9da5854b797dd9c60533118a831641b9ba7b00
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 16:12:09 2024 +0200
+
+    3rd commit
+
+commit deba6c57b476af07d31337c1ac915583e65430ea
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Wed May 29 12:44:08 2024 +0200
+
+    3
+
+commit ab97c2b14aa5b42b5e745e4dd4adf8143ed4ab34
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Tue May 28 07:22:58 2024 +0200
+
+    head & nav
+
+commit b2a5c93f865d0e83c1ae3d7f65256323f6bb6e75
+Author: Sebastian Schoeneberger <sebastian.schoeneberger@gmail.com>
+Date:   Tue May 28 00:08:06 2024 +0200
+
+    first section, first draft
+
+commit c51d9af39f7d6a1dd53c08da542501e2c2c99d23
+Merge: e486d72 d8ad81d
+Author: SebSchoeneberger <sebastian.schoeneberger@gmail.com>
+Date:   Mon May 27 17:08:27 2024 +0300
+
+    Merge pull request #4 from Berkan-Turkyilmaz/feature/first-section
+    
+    Homepage font montserrat
+
+commit b51bfd3c2e60f293377a196ac588fbdbbb962dbf
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Mon May 27 16:07:51 2024 +0200
+
+    head/nav trailwind
+
+commit d8ad81ddf23d5618b67a024ee14ba72459188f69
+Author: Sebastian Schoeneberger <sebastian.schoeneberger@gmail.com>
+Date:   Mon May 27 16:06:04 2024 +0200
+
+    Homepage font montserrat
+
+commit e486d7296b929eeba08c0fd089af56d914d488e6
+Merge: df07e01 adcfcbc
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Mon May 27 15:36:39 2024 +0200
+
+    Merge pull request #3 from Berkan-Turkyilmaz/ft/header-nav
+    
+    ft/header-nav
+
+commit adcfcbcb305212bc89131aea032458681d689057
+Author: ktwd52 <tibor.keglovics@gmail.com>
+Date:   Mon May 27 15:24:06 2024 +0200
+
+     first commit
+
+commit df07e01ca7115763f9e03289eed41bc41102ad08
+Merge: f3e67b9 b689af6
+Author: SebSchoeneberger <sebastian.schoeneberger@gmail.com>
+Date:   Mon May 27 16:18:50 2024 +0300
+
+    Merge pull request #2 from Berkan-Turkyilmaz/feature/sections
+    
+    Section whitespace
+
+commit b689af688d2e9eefaf305f4de7f3e80eb3d44743
+Author: Sebastian Schoeneberger <sebastian.schoeneberger@gmail.com>
+Date:   Mon May 27 15:17:08 2024 +0200
+
+    Section whitespace
+
+commit f3e67b9a1b76a1b02ab11ebc5bdc04a1fe452069
+Merge: aacf120 a02d720
+Author: Berkan-Turkyilmaz <brkntrkylmz@gmail.com>
+Date:   Mon May 27 14:53:24 2024 +0200
+
+    Merge pull request #1 from Berkan-Turkyilmaz/feature/comment-and-sections
+    
+    comments and sections
+
+commit a02d7202437da14a55fb69a44d9e0f98c391d374
+Author: Berkan <brkntrkylmz@gmail.com>
+Date:   Mon May 27 14:52:27 2024 +0200
+
+    comments and sections
+
+commit aacf1206e898cf16c0a38869de47be57edd0343f
+Author: Berkan <brkntrkylmz@gmail.com>
+Date:   Mon May 27 14:49:46 2024 +0200
+
+    first commit

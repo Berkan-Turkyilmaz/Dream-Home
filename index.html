@@ -17,9 +17,6 @@
               montserrat: ["Montserrat"],
               colors: {
                 clifford: "#da373d",
-                figmacoffee: "DDC7BB",
-                figmalbrown: "FEF7F2",
-                figmawhite: "FFFFFF",
               },
             },
           },
@@ -37,26 +34,50 @@
 
   <body>
     <!-- START / NAVBAR(TIBOR)-->
-    <header class="fixed rounded-xl shadow-lg flex w-20 md:w-24 lg:w-36">
-      <div class="">
-        <img class="py-5 flex-row" src="img/dwello.png" alt="dwello logo" />
-      </div>
-      <nav class="flex-row justify-between drop-shadow-lg">
-        <a class="" href="index.html">Home</a>
-        <a href="#service">Service</a>
-        <a href="#agents">Agents</a>
-        <a href="#contact">Contact</a>
+    <header
+      class="flex fixed size-full overflow-hidden bg-[FEF7F2] justify-evenly"
+    >
+      <!-- >md:w-24 lg:w-36 -->
+      <img
+        class="w-[93px] h-[29px] mt-[49px]"
+        src="img/dwello.png"
+        alt="dwello logo"
+      />
+      <nav class="flex row justify-evenly gap-11">
+        <a class="font-bold text-lg drop-shadow-xl mt-[52px]" href="index.html"
+          >Home</a
+        >
+        <a class="font-bold text-lg drop-shadow-xl mt-[52px]" href="#service"
+          >Service</a
+        >
+        <a class="font-bold text-lg drop-shadow-xl mt-[52px]" href="#agents"
+          >Agents</a
+        >
+        <a class="font-bold text-lg drop-shadow-2xl mt-[52px]" href="#contact"
+          >Contact</a
+        >
       </nav>
-      <div class="flex-row">
-        <img src="img/search.png" alt="search icon" /><a href="#search"></a>
-        <img src="img/user.svg" alt="user icon" /><a href="#user"></a>
-        <button class="flex-row py- px-8 rounded-xl text-[#]">
+      <div class="flex row justify-between gap-8">
+        <a href="#search">
+          <img
+            class="w-6 h-6 mt-[52px]"
+            src="img/search.png"
+            alt="search icon"
+          />
+        </a>
+        <a href="#user">
+          <img class="w-6 h-6 mt-[52px]" src="img/user.svg" alt="user icon" />
+        </a>
+        <button
+          class="w-[122px] h-[48px] mt-[40px] font-semibold text-lg text-white bg-[#2B1B12] rounded-lg"
+        >
+
           <a href="#signup">Sign up</a>
         </button>
       </div>
     </header>
+    <!-- END / NAVBAR(TIBOR)-->
     <main>
-      <!-- END / NAVBAR(TIBOR)-->
       <!-- START / FIND YOUR DREAM HOME(SEBASTIAN)-->
       <section class="bg-[#FEF7F2] flex justify-around px-16">
         <div class="flex flex-col justify-center gap-16 pb-20">
@@ -168,8 +189,7 @@
       <!-- START / DO YOU HAVE QUESTIONS (BERKAN)-->
       <section></section>
       <!-- END / DO YOU HAVE QUESTIONS (BERKAN)-->
-    </main>
-
+</main>
     <!-- START / FOOTER (TIBOR)-->
     <footer></footer>
     <!-- END / FOOTER (TIBOR)-->

@@ -37,29 +37,61 @@
   </head>
 
   <body>
-    <!-- START / NAVBAR(TIBOR)-->
-    <header class="fixed rounded-xl shadow-lg flex w-20 md:w-24 lg:w-36">
-      <div class="">
-        <img class="py-5 flex-row" src="img/dwello.png" alt="dwello logo" />
-      </div>
-      <nav class="flex-row justify-between drop-shadow-lg">
-
-        <a class="" href="index.html">Home</a>
-        <a href="#service">Service</a>
-        <a href="#agents">Agents</a>
-        <a href="#contact">Contact</a>
+  <!-- START / NAVBAR(TIBOR)-->
+    <header
+      class="flex fixed w-full overflow-hidden text-[#2B1B12] bg-[#FEF7F2] justify-between text-xs md:text-sm lg:text-lg"
+    >
+      <img
+        class="w-[93px] h-[29px] mt-[49px] px-2 hover:animate-ping"
+        src="img/dwello.png"
+        alt="dwello logo"
+      />
+      <nav class="flex mt-[53] gap-11">
+        <a
+          class="font-bold text-lg drop-shadow-lg mt-[52px] hover:underline"
+          href="index.html"
+          >Home</a
+        >
+        <a
+          class="font-bold text-lg drop-shadow-lg mt-[52px] hover:underline"
+          href="#service"
+          >Service</a
+        >
+        <a
+          class="font-bold text-lg drop-shadow-lg mt-[52px] hover:underline"
+          href="#agents"
+          >Agents</a
+        >
+        <a
+          class="font-bold text-lg drop-shadow-lg mt-[52px] hover:underline"
+          href="#contact"
+          >Contact</a
+        >
       </nav>
-      <div class="flex-row">
-        <img src="img/search.png" alt="search icon" /><a href="#search"></a>
-        <img src="img/user.svg" alt="user icon" /><a href="#user"></a>
-        <button class="flex-row py- px-8 rounded-xl text-[#]">
+      <div class="flex justify-between gap-8">
+        <a href="#search">
+          <img
+            class="w-6 h-2 md:h-4 lg:h-6 mt-[52px] hover:animate-pulse"
+            src="img/search.png"
+            alt="search icon"
+          />
+        </a>
+        <a href="#user">
+          <img
+            class="w-6 h-2 md:h-4 lg:h-6 mt-[52px] hover:animate-pulse"
+            src="img/user.svg"
+            alt="user icon"
+          />
+        </a>
+        <button
+          class="h-[48px] mt-[40px] w-[48px] md:w-[96px] lg:w-[122px] font-semibold text-white bg-[#2B1B12] rounded-lg hover:animate-pulse"
+        >
 
           <a href="#signup">Sign up</a>
         </button>
       </div>
     </header>
-    <main>
-      <!-- END / NAVBAR(TIBOR)-->
+    <!-- END / NAVBAR(TIBOR)-->
       <!-- START / FIND YOUR DREAM HOME(SEBASTIAN)-->
     <section class="bg-[#FEF7F2] flex justify-around px-16">
         <div class="flex flex-col justify-center gap-16 pb-20">
